@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782e7e47-1e17-4641-87c4-4a7c2f0babf5" name="Changes" comment="primer commit(nuevo creado porque no lo habia hecho con Maven)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClienteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DialogoMacTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DialogoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DialogoWindowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FabricaDialogoMacTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FabricaDialogoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FabricaDialogoWindowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    <list default="true" id="782e7e47-1e17-4641-87c4-4a7c2f0babf5" name="Changes" comment="tests añadidos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClienteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +44,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "last_opened_file_path": "/Users/Sally/Documents/GitHub/ExamenSorpresa1/src/main/java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -70,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DialogoMacTest">
+  <component name="RunManager" selected="JUnit.ClienteTest">
     <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExamenSorpresa1" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,6 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DialogoWindowsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExamenSorpresa1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DialogoWindowsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExamenSorpresa1" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,8 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DialogoMacTest" />
         <item itemvalue="JUnit.ClienteTest" />
+        <item itemvalue="JUnit.DialogoWindowsTest" />
+        <item itemvalue="JUnit.DialogoMacTest" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.ClienteTest.imprimir" />
       </list>
@@ -125,7 +125,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675969123779</updated>
-      <workItem from="1675969126591" duration="820000" />
+      <workItem from="1675969126591" duration="1056000" />
+      <workItem from="1676052387385" duration="245000" />
+      <workItem from="1676052685346" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit(nuevo creado porque no lo habia hecho con Maven)">
       <created>1675969365278</created>
@@ -134,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675969365278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tests añadidos">
+      <created>1675970125019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675970125019</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +162,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit(nuevo creado porque no lo habia hecho con Maven)" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer commit(nuevo creado porque no lo habia hecho con Maven)" />
+    <MESSAGE value="tests añadidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests añadidos" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
